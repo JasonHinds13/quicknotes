@@ -14,6 +14,14 @@ $(document).ready(function(){
 
     $("#activate").on('click', openNav);
     $("#close").on('click', closeNav);
+    
+    $("#login").on('click', function(){
+        $("#main").load("frags/login.html");
+    });
+    
+    $("#signup").on('click', function(){
+        $("#main").load("frags/signup.html");
+    });
 
     $("#new").on('click', function(){
     	$("#main").load("frags/MakeNotes.html");
