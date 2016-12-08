@@ -17,18 +17,22 @@ $(document).ready(function(){
     
     $("#login").on('click', function(){
         $("#main").load("frags/login.html");
+        closeNav();
     });
     
     $("#signup").on('click', function(){
         $("#main").load("frags/signup.html");
+        closeNav();
     });
 
     $("#new").on('click', function(){
     	$("#main").load("frags/MakeNotes.html");
+    	closeNav();
     });
 
     $("#view").on('click', function(){
     	$("#main").load("frags/ViewNotes.html");
+    	closeNav();
     });
 
 });
