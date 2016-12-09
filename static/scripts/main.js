@@ -16,22 +16,22 @@ $(document).ready(function(){
     $("#close").on('click', closeNav);
     
     $("#login").on('click', function(){
-        $("#main").load("frags/login.html");
+        $("#main").load("/login");
         closeNav();
     });
     
     $("#signup").on('click', function(){
-        $("#main").load("frags/signup.html");
+        $("#main").load("/signup");
         closeNav();
     });
 
     $("#new").on('click', function(){
-    	$("#main").load("frags/MakeNotes.html");
+    	$("#main").load("/MakeNotes");
     	closeNav();
     });
 
     $("#view").on('click', function(){
-    	$("#main").load("frags/ViewNotes.html");
+    	$("#main").load("/ViewNotes");
     	closeNav();
     });
 
